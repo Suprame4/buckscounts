@@ -6,6 +6,10 @@
     extralightgreen #d4e9e2
     darkgreen #1e3932
 */
+   
+/* 
+  Two flex boxes
+*/
 * {
   color: #27251F;
   box-sizing: border-box;
@@ -13,3 +17,48 @@
 }
 
 /* your code */
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e3932;
+
+}
+
+nav.header {
+  display: flex; 
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: baseline;
+  font-size: 30px;
+  margin: 10px 100px;
+  
+}
+
+h1#header_id{
+  color: white;
+}
+
+header#city_header {
+  background-color: rgb(188, 186, 186);
+  padding: 20px 10px;
+  font-size: 25px;
+  border-radius: 10px;
+  margin: 10px 100px;
+  
+}
+
+/* style the list */
+section.city_list {
+
+  padding: 10px 10px;  
+  border: 1px solid white;
+  border-radius: 10px;
+  margin: 10px 100px;
+}
+
+div.city-item {
+  background-color: #00754a; 
+  text-align: right;
+  padding: 4px;
+  margin: 10px;
+}
